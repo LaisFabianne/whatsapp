@@ -8,6 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Usuario user1 = new Usuario("Zé", "8299583012");
+        Usuario user2 = new Usuario("Maria", "7999583012");
+        Mensagem hello = new Mensagem("Oi", user1, user2);
     }
 }
